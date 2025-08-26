@@ -1,4 +1,2 @@
-View this project on [CADLAB.io](https://cadlab.io/project/23863). 
+# Core Electrical URC '24
 
-# RoverElectronics
-Electronics hardware for the full-scale rover
