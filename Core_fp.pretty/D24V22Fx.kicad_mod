@@ -1,7 +1,7 @@
 (footprint "D24V22Fx"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 15.38 1.08 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0f412a21-1f0a-4138-9ce4-25f842624f17")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "82d8d150-3016-4cc1-b58b-59e604b1d85e")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a70993ab-3693-4428-bfa0-24e1b7f2e0ca")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "b1c0b27e-41e3-4f04-b495-4817e5781371")
 	)
@@ -96,7 +83,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "060bcfe6-7667-4a29-aa8e-511cf847f0cd")
 	)
@@ -134,14 +121,16 @@
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "124c609e-182f-46dc-948a-14565a91c409")
 	)
-	(pad "4" thru_hole circle
+	(pad "4" thru_hole rect
 		(at 8.89 16.53)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "e8deca21-3c1f-4adc-9da9-2b114c7b99c7")
 	)
 	(pad "5" thru_hole circle
@@ -152,14 +141,16 @@
 		(remove_unused_layers no)
 		(uuid "49506e91-c4f5-4687-bcf9-55a42a4cb8d2")
 	)
-	(pad "6" thru_hole circle
+	(pad "6" thru_hole rect
 		(at 1.27 5.84)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "d4eaf52d-e1f2-4693-ad6d-a4f21eca30c1")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/Core 3D Models/D24V22Fx.step"
 		(offset
 			(xyz 25.8 -1.1 10.5)
