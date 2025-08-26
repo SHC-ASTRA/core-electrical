@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name MainElectronicsLib)(type Legacy)(uri ${KIPRJMOD}/Library/MainElectronicsLib.lib)(options "")(descr ""))
-)
